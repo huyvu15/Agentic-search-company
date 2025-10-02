@@ -1,0 +1,17 @@
+[project]
+name = "mobiwork"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "playwright",
+    "trafilatura",
+    "duckduckgo-search",
+    "ddgs>=9.6.0",
+    "google-generativeai",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "pydantic>=2",
+    "fastapi[standard]",
+]
